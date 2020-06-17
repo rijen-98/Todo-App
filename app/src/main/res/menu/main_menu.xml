@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+ >
+
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_note_list"
+            android:title="List Todo"
+            android:icon="@drawable/ic_list"
+            />
+
+    </group>
+
+    <item android:title="Tools">
+        <menu>
+            <item
+                android:id="@+id/nav_add_note"
+                android:icon="@drawable/ic_add"
+                android:title="Add Note" />
+            <item
+                android:id="@+id/nav_delete_all_notes"
+                android:title="Delete All Notes"
+                android:icon="@drawable/ic_delete"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_message"
+                android:icon="@drawable/ic_message"
+                android:title="Message" />
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_profile"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/ic_signout"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>
